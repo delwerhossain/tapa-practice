@@ -111,6 +111,7 @@ const LandingPage = () => {
                   src="https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
                   width={600}
                   height={300}
+                  alt=""
                 />
               </div>
             </div>
@@ -128,6 +129,7 @@ const LandingPage = () => {
               height={100}
               src="https://cdn.devdojo.com/images/december2020/productivity.png"
               className="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 "
+              alt=""
             />
           </div>
 
@@ -203,6 +205,7 @@ const LandingPage = () => {
               height={100}
               src="https://cdn.devdojo.com/images/december2020/settings.png"
               className="pl-4 sm:pr-10 xl:pl-10 lg:pr-32"
+              alt=""
             />
           </div>
         </div>
@@ -325,6 +328,7 @@ const LandingPage = () => {
                       height={100}
                       src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1700&amp;q=80"
                       className="object-cover w-full h-full"
+                      alt=""
                     />
                   </div>
                   <div className="flex flex-col items-start justify-center">
@@ -346,6 +350,7 @@ const LandingPage = () => {
                       height={100}
                       src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2547&amp;q=80"
                       className="object-cover w-full h-full"
+                      alt=""
                     />
                   </div>
                   <div className="flex flex-col items-start justify-center">
@@ -366,6 +371,7 @@ const LandingPage = () => {
                       height={100}
                       src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1256&amp;q=80"
                       className="object-cover w-full h-full"
+                      alt=""
                     />
                   </div>
                   <div className="flex flex-col items-start justify-center">
