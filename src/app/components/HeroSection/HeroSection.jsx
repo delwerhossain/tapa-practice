@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
         <div className="order-2 lg:order-1 flex flex-col justify-center items-center">
           <p className="text-4xl font-bold md:text-7xl text-indigo-600">
-            25% OFF
+            27% OFF
           </p>
           <p className="text-4xl font-bold md:text-7xl">SUMMER SALE</p>
           <p className="mt-2 text-sm md:text-lg">For limited time only!</p>
