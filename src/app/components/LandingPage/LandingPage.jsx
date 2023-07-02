@@ -73,7 +73,7 @@ const LandingPage = () => {
                   </span>
                 </h1>
                 <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
-                  It's never been easier to build beautiful websites that convey
+                  Its never been easier to build beautiful websites that convey
                   your message and tell your story.
                 </p>
                 <div className="relative flex flex-col sm:flex-row sm:space-x-4">
@@ -221,7 +221,7 @@ const LandingPage = () => {
                   Jam-packed with all the tools you need to succeed!
                 </h2>
                 <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6">
-                  It's never been easier to build a business of your own. Our
+                  Its never been easier to build a business of your own. Our
                   tools will help you with the following:
                 </p>
                 <ul>
@@ -303,7 +303,7 @@ const LandingPage = () => {
         <div className="px-16 bg-white">
           <div className="container flex flex-col items-start mx-auto lg:items-center">
             <p className="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-purple-500 uppercase lg:justify-center lg:items-center">
-              Don't just take our word for it
+              Dont just take our word for it
             </p>
 
             <h2 className="relative flex items-start justify-start w-full max-w-3xl text-5xl font-bold lg:justify-center">
@@ -337,9 +337,9 @@ const LandingPage = () => {
                   </div>
                 </div>
                 <blockquote className="mt-8 text-lg text-gray-500">
-                  "This is a no-brainer if you want to take your business to the
+                  This is a no-brainer if you want to take your business to the
                   next level. If you are looking for the ultimate toolset, this
-                  is it!"
+                  is it!
                 </blockquote>
               </div>
               <div className="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
@@ -359,8 +359,8 @@ const LandingPage = () => {
                   </div>
                 </div>
                 <blockquote className="mt-8 text-lg text-gray-500">
-                  "Thanks for creating this service. My life is so much easier.
-                  Thanks for making such a great product."
+                  Thanks for creating this service. My life is so much easier.
+                  Thanks for making such a great product.
                 </blockquote>
               </div>
               <div className="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
@@ -380,8 +380,8 @@ const LandingPage = () => {
                   </div>
                 </div>
                 <blockquote className="mt-8 text-lg text-gray-500">
-                  "Packed with awesome content and exactly what I was looking
-                  for. I would highly recommend this to anyone."
+                  Packed with awesome content and exactly what I was looking
+                  for. I would highly recommend this to anyone.
                 </blockquote>
               </div>
             </div>
@@ -397,10 +397,10 @@ const LandingPage = () => {
               Pricing Options
             </h2>
             <p className="box-border mt-4 text-2xl leading-normal text-gray-900 border-solid">
-              We've got a plan for companies of any size
+              We,ve got a plan for companies of any size
             </p>
           </div>
-          <div className="grid max-w-md mx-auto mt-6 overflow-hidden leading-7 text-gray-900 border border-b-4 border-gray-300 border-blue-600 rounded-xl md:max-w-lg lg:max-w-none sm:mt-10 lg:grid-cols-3">
+          <div className="grid max-w-md mx-auto mt-6 overflow-hidden leading-7 text-gray-900 border border-b-4 border-blue-600 rounded-xl md:max-w-lg lg:max-w-none sm:mt-10 lg:grid-cols-3">
             <div className="box-border px-4 py-8 mb-6 text-center bg-white border-solid lg:mb-0 sm:px-4 sm:py-8 md:px-8 md:py-12 lg:px-10">
               <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-solid sm:text-3xl md:text-4xl">
                 Basic
