@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="#">
+              <Link href="#">
                 <span className="sr-only">Workflow</span>
                 <Image
                   className="h-8 w-auto sm:h-10"
@@ -23,7 +24,7 @@ const Header = () => {
                   width={80}
                   height={60}
                 />
-              </a>
+              </Link>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
               <button
@@ -105,7 +106,7 @@ const Header = () => {
                 >
                   <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                      <a
+                      <Link
                         href="#"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -134,8 +135,8 @@ const Header = () => {
                             coming from.
                           </p>
                         </div>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -164,8 +165,8 @@ const Header = () => {
                             meaningful way.
                           </p>
                         </div>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -193,8 +194,8 @@ const Header = () => {
                             Your customers data will be safe and secure.
                           </p>
                         </div>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -223,8 +224,8 @@ const Header = () => {
                             using.
                           </p>
                         </div>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -253,11 +254,11 @@ const Header = () => {
                             customers to convert
                           </p>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                       <div className="flow-root">
-                        <a
+                        <Link
                           href="#"
                           className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                         >
@@ -284,10 +285,10 @@ const Header = () => {
                             />
                           </svg>
                           <span className="ml-3">Watch Demo</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className="flow-root">
-                        <a
+                        <Link
                           href="#"
                           className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                         >
@@ -308,25 +309,25 @@ const Header = () => {
                             />
                           </svg>
                           <span className="ml-3">Contact Sales</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <a
+              <Link
+                href="/page/news"
+                className="text-base font-medium text-gray-500 hover:text-gray-900"
+              >
+                News
+              </Link>
+              <Link
                 href="#"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
-                Pricing
-              </a>
-              <a
-                href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                Docs
-              </a>
+                Contact
+              </Link>
               <div className="relative">
                 {/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
                 <button
@@ -378,7 +379,7 @@ const Header = () => {
                 >
                   <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                      <a
+                      <Link
                         href="#"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -407,8 +408,8 @@ const Header = () => {
                             contact support.
                           </p>
                         </div>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -437,8 +438,8 @@ const Header = () => {
                             out of it.
                           </p>
                         </div>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -467,8 +468,8 @@ const Header = () => {
                             planning near you.
                           </p>
                         </div>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -496,7 +497,7 @@ const Header = () => {
                             Understand how we take your privacy seriously.
                           </p>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     <div className="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
                       <div>
@@ -505,40 +506,40 @@ const Header = () => {
                         </h3>
                         <ul className="mt-4 space-y-4">
                           <li className="text-base truncate">
-                            <a
+                            <Link
                               href="#"
                               className="font-medium text-gray-900 hover:text-gray-700"
                             >
                               Boost your conversion rate
-                            </a>
+                            </Link>
                           </li>
                           <li className="text-base truncate">
-                            <a
+                            <Link
                               href="#"
                               className="font-medium text-gray-900 hover:text-gray-700"
                             >
                               How to use search engine optimization to drive
                               traffic to your site
-                            </a>
+                            </Link>
                           </li>
                           <li className="text-base truncate">
-                            <a
+                            <Link
                               href="#"
                               className="font-medium text-gray-900 hover:text-gray-700"
                             >
                               Improve your customer experience
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
                       <div className="mt-5 text-sm">
-                        <a
+                        <Link
                           href="#"
                           className="font-medium text-indigo-600 hover:text-indigo-500"
                         >
                           {" "}
                           View all posts <span aria-hidden="true">→</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -546,18 +547,18 @@ const Header = () => {
               </div>
             </nav>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <a
+              <Link
                 href="#"
                 className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Sign in
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Sign up
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -575,7 +576,7 @@ const Header = () => {
         <div
           className={
             open
-              ? "opacity-100 scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+              ? "opacity-100 scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2  transform origin-top-right md:hidden"
               : "opacity-0 scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           }
         >
@@ -619,7 +620,7 @@ const Header = () => {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  <a
+                  <Link
                     href="#"
                     className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                   >
@@ -642,8 +643,8 @@ const Header = () => {
                     <span className="ml-3 text-base font-medium text-gray-900">
                       Analytics
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                   >
@@ -666,8 +667,8 @@ const Header = () => {
                     <span className="ml-3 text-base font-medium text-gray-900">
                       Engagement
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                   >
@@ -690,8 +691,8 @@ const Header = () => {
                     <span className="ml-3 text-base font-medium text-gray-900">
                       Security
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                   >
@@ -714,8 +715,8 @@ const Header = () => {
                     <span className="ml-3 text-base font-medium text-gray-900">
                       Integrations
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                   >
@@ -738,73 +739,76 @@ const Header = () => {
                     <span className="ml-3 text-base font-medium text-gray-900">
                       Automations
                     </span>
-                  </a>
+                  </Link>
                 </nav>
               </div>
             </div>
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                <a
-                  href="#"
+                <Link
+                  href="/page/news"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
-                  Pricing
-                </a>
-                <a
-                  href="#"
+                  News
+                </Link>
+                <Link
+                  href="/contact"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
-                  Docs
-                </a>
-                <a
+                  Contact
+                </Link>
+                <Link
                   href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Enterprise
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Blog
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Help Center
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Guides
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Security
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Events
-                </a>
+                </Link>
               </div>
               <div>
-                <a
+                <Link
                   href="#"
                   className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Sign up
-                </a>
+                </Link>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   Existing customer?
-                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
+                  <Link
+                    href="#"
+                    className="text-indigo-600 hover:text-indigo-500"
+                  >
                     Sign in
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
